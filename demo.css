@@ -1,0 +1,92 @@
+.body{
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+/*utility classes*/
+.img-responsive{
+  max-width:1005
+}
+.image{
+  background:url(food.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position:relative;
+}
+.image2{
+   color:black;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+.image2 h1{
+  text-align:center;
+}
+.demo2 .demo3{
+  display:block;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:2rem;
+  padding:.6rem;
+  border:none;
+  text-align: center;
+}
+.demo2 button{
+  text-align: center;
+  width:40%;
+  margin-left:auto;
+  margin-right: auto;
+  display:block;
+  border:none;
+  border-radius: 3rem;
+  padding: .3rem;
+  background-color: blue;
+  color:white;
+  margin-top:.6rem;
+}
+/*product section*/
+
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and(max-width:700px){
+  .product2{
+  width:100%;
+  float:none;
+}
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.meal-showcase{
+  list-style:none;
+  width:100;
+}
+.meal-showcase li{
+   display:none;
+   width:20%;
+   float:left;
+   
+}
